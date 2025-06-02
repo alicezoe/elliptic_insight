@@ -1,1 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Data files (add your dataset path if needed)
+*.csv
+*.tsv
+*.h5
+*.npz
+*.pkl
+data/
+datasets/
+
+# Logs and outputs
+*.log
+logs/
+output/
+outputs/
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# PyTorch Lightning checkpoints and logs
+lightning_logs/
+checkpoints/
+
+# Python dependency folders
+pip-wheel-metadata/
+__pypackages__/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environment/config files
+.env
+*.env
+*.secret
+
 raw_data/
