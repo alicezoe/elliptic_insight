@@ -58,3 +58,4 @@ ipython_config.py
 *.secret
 
 raw_data/
+*.Zone.Identifier
