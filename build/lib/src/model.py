@@ -1,4 +1,4 @@
-# The model.py file typically contains classes and functions for building, training, and using machine learning models.
+# Classes/Functions for building, training, and using machine learning models.
 
 # class Model:
     # def
