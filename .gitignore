@@ -11,6 +11,7 @@ __pycache__/
 .venv/
 env/
 venv/
+elliptic-insight/
 
 # Data files (add your dataset path if needed)
 *.csv
@@ -36,6 +37,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+elliptic_insight.code-workspace
 
 # PyTorch Lightning checkpoints and logs
 lightning_logs/
