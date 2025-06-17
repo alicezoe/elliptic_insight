@@ -44,6 +44,8 @@ checkpoints/
 # Python dependency folders
 pip-wheel-metadata/
 __pypackages__/
+build/
+dist/
 
 # IPython
 profile_default/
