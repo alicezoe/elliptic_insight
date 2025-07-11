@@ -1,22 +1,27 @@
-## Elliptic Dataset
+# Bitcoin Fraud Detection System
 
-The Elliptic Dataset is a large, publicly available graph-based dataset designed for research on detecting illicit activity in the Bitcoin blockchain. <br>It enables the study of anti-money laundering (AML), fraud detection, and financial forensics using machine learning and graph analysis techniques.
+## 🎯 Problem Statement
+Cryptocurrency fraud costs billions annually. <br>This project tackles Bitcoin transaction fraud detection using the Elliptic dataset - one of the largest public datasets of real Bitcoin transactions labeled as licit or illicit.
 
-The Elliptic Dataset maps Bitcoin transactions to real entities in 2 categories:
+## 🔬 Approach
+I implemented and compared multiple machine learning approaches:
+- **Traditional ML Models:** [List which ones you used - Random Forest, SVM, etc.]
+- **Graph Neural Networks:** Leveraging Bitcoin's transaction graph structure
+- **Autoencoders:** For anomaly detection in transaction patterns
 
-1. Licit (class-2): exchanges, wallet providers, miners, licit services, etc.
-2. Ilicit (class-1): scams, malware, terrorist, organization, ransomware, Ponzi schemes, etc.
+## 📊 Results
+[Add your key findings - accuracy scores, which model performed best, any insights about fraud patterns]
 
-Nodes (transactions) - 203,769
-<br>Edges (money flow) - 234,355
-<br>Time steps - 49
-<br>Illicit (class-1) - 4,545
-<br>Licit (class-2) - 42,019
-<br>Unknown (class-3) - 157,205
-<br>Features - 167
+## 🛠️ Tech Stack
+- Python, Pandas, NumPy
+- Scikit-learn, TensorFlow
+- Graph analysis libraries
+- Data visualization tools
 
-An "edge" represents a flow of Bitcoin between two transactions. <br>Specifically, the data set is structured as a transaction graph where:
-- Each node corresponds to a Bitcoin transaction.
-- Each edge indicates that Bitcoin value has moved from one transaction to another, effectively capturing the transfer of funds on the blockchain
+## 🚀 How to Run
+1. Clone the repository
+2. Install requirements: `pip install -r requirements.txt`
+3. [Add specific steps to run your analysis]
 
-This means an edge connects two transactions, showing the direction and presence of a payment or transfer. The edges are directed, signifying the direction of Bitcoin flow—from the source transaction to the destination transaction
+## 💡 Key Insights
+[Add 2-3 bullet points about what you learned about fraud detection or the effectiveness of different approaches]
